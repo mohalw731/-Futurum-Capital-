@@ -1,8 +1,10 @@
 import './App.css'
+import { lazy } from 'react'
 import Home from './pages/Home'
-import Contact from './pages/Contact'
+const Contact = lazy(() => import('./pages/Contact'))
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Jobs from './pages/Jobs'
+const Jobs = lazy(() => import('./pages/Jobs'))
+
 
 function App() {
 
