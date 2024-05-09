@@ -32,8 +32,8 @@ function Footer({ scrollToRef, scrollToSection, scrollToGoals }) {
         <div className="footer-row footer-nav">
           <h3>Kontakt</h3>
           <ul>
-            <li><a href="mailto:">info@example.com</a></li>
-            <li><a href="tel:+">0760375902</a></li>
+            <li><a href="mailto:Loui.pratt@capitalfuturum.com">Loui.pratt@capitalfuturum.com</a></li>
+            <li><a href="tel:+46760375902">076 037 59 02</a></li>
           </ul>
         </div>
 

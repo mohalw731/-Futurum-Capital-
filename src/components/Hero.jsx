@@ -10,6 +10,7 @@ function Hero({ scrollToSection, scrollToRef }) {
 
       <div className="hero-img-container">
         <img src={imgback} alt="stockholm" />
+        <div className="overlay"></div>
       </div>
 
       <div className="hero-text">
@@ -24,7 +25,6 @@ function Hero({ scrollToSection, scrollToRef }) {
         </div>
       </div>
 
-      <div className="overlay"></div>
     </div>
   );
 }
