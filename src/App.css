@@ -114,6 +114,7 @@ nav button {
 
 .hero-container {
   position: relative;
+  position: sticky;
 }
 
 .hero-img-container {
@@ -132,10 +133,14 @@ nav button {
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.7);
-  position: absolute;
+
   width: 100%;
   height: 100dvh;
+  position: absolute;
   top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 
 }
 
@@ -646,7 +651,7 @@ nav{
 }
 
 .services-container h2, .goals-container h2, .testimonials-container h2 {
-  font-size: 17px;
+  font-size: 15px;
 }
 
 form{
@@ -667,5 +672,13 @@ form{
 
 .form-btn {
   width: 50%;
+}
+
+.about-container img , .about-text{
+  width: 100%;
+}
+
+nav img {
+  width: 120px;
 }
 }
