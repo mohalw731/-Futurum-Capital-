@@ -1,5 +1,5 @@
 import React from 'react'
-import footerimg from '../assets/footerlogo.svg'
+import footerimg from '../assets/footerlogo.png'
 import { InstagramLogoIcon, LinkedInLogoIcon } from '@radix-ui/react-icons'
 import { Link } from 'react-router-dom'
 

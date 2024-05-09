@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from '../assets/logo.svg';
+import logo from '../assets/logo.png';
 import { Cross1Icon, HamburgerMenuIcon } from '@radix-ui/react-icons';
 import '../App.css';
 import { Link } from 'react-router-dom';
