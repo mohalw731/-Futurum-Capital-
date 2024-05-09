@@ -21,7 +21,7 @@ const Form = ({ no, title, buttonText,hidden }) => {
                         </svg>
                     </div>
                     <div className="text">
-                        <span>klicka to upload image</span>
+                        <span>Ladda upp ditt cv</span>
                     </div>
                     <input type="file" name="" id="file" />
                 </label>
