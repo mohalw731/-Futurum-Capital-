@@ -12,7 +12,7 @@ function Jobs() {
     return (
         <>
             <Nav className="scroll" no='no' />
-            <Form title='Karriär i Futurum Capital' buttonText='Ansök'/>
+            <Form title='Karriär i Futurum Capital' buttonText='Ansök' template='template_64zqn0c'/>
             <Testimonials hidden={hidden} />
             <Footer />
         </>

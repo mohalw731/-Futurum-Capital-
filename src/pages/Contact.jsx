@@ -12,7 +12,7 @@ const Contact = () => {
   return (
     <>
       <Nav className="scroll" no='no'/>
-      <Form no='no' title='Kontakta oss' buttonText='Kontakta oss' hidden={hidden}/>
+      <Form no='no' title='Kontakta oss' buttonText='Kontakta oss' hidden={hidden} template='template_7grp8s9'/>
       <Testimonials/>
       <Footer/>
     </>
